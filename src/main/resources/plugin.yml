@@ -1,0 +1,18 @@
+name: CacheExample
+version: ${project.version}
+main: gg.gianluca.cacheexample.CacheExample
+api-version: 1.13
+authors: [Gianluca]
+description: A simple teleport plugin showcasing an efficient timed cache system
+website: https://gianluca.gg
+
+commands:
+      tpa:
+        usage: /<command>
+        description: Request a teleport
+      tpaccept:
+        usage: /<command>
+        description: Accept a teleport request
+      tpdeny:
+        usage: /<command>
+        description: Deny a teleport request
